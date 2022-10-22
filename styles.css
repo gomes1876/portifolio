@@ -4,7 +4,7 @@ body {
 
     display: grid;
     grid-template-areas:
-        "main header"
+        "header header"
         "main aside"
         "footer footer";
     grid-template-rows: 100px 0.1fr 40px;
@@ -62,6 +62,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #44475a;
+    padding: 0px;
 }
 
 /* head main */
@@ -69,7 +70,8 @@ main {
 #head_main {
     width: 80%;
     border-radius: 2vh;
-    margin-top: 3vh;
+    margin-top: 1.3vh;
+        margin-left: 6vh;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -140,7 +142,7 @@ aside {
 aside>div {
     box-shadow: 2px 3px 15px 4px #2C284D;
     width: 81%;
-    height: 100vh;
+    height: 410vh;
     margin-top: 1vh;
     border-radius: 1vh;
     margin-bottom: 6vh;
@@ -290,8 +292,16 @@ aside>div>div {
 
 .group_project>div>p {
     margin-left: 3vh;
-    font-size: 3vh;
-    margin-top: 1.3vh;
+    font-size: 4vh;
     color: #bd93f9;
     align-self: center;
+}
+.group_project>div>img {
+    border-radius: 1vh;
+}
+
+.image_example {
+    margin-left: 6vh;
+    margin-bottom: 4vh;
+    border-radius: 2vh;
 }
