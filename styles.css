@@ -127,6 +127,10 @@ main {
 svg>path {
     fill: #b47fff;
 }
+.group_project>div>svg>line {
+    fill: #b47fff;
+    background-color: #b47fff;
+}
 
 
 /*body*/
@@ -142,7 +146,7 @@ aside {
 aside>div {
     box-shadow: 2px 3px 15px 4px #2C284D;
     width: 81%;
-    height: 410vh;
+    height: 570vh;
     margin-top: 1vh;
     border-radius: 1vh;
     margin-bottom: 6vh;
@@ -298,10 +302,19 @@ aside>div>div {
 }
 .group_project>div>img {
     border-radius: 1vh;
+    margin-bottom: 2vh;
+    }
+    
+    .group_project>div>svg>path {
+        fill: #bd93f9
 }
 
 .image_example {
     margin-left: 6vh;
     margin-bottom: 4vh;
     border-radius: 2vh;
+}
+#download_icon {
+    border-radius: 20vh;
+    margin-left: 2vh;
 }
